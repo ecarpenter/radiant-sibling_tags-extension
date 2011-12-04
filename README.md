@@ -16,7 +16,7 @@ In a terminal, `cd` to the root directory of your Radiant site.
 
 Add the following line to your Gemfile
 
-    gem 'radiant-sibling-tags-extension'
+    gem 'radiant-sibling_tags-extension'
 
 Run
 
