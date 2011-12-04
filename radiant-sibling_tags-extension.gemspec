@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "radiant-sibling-tags-extension/version"
+require 'radiant-sibling_tags-extension/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'radiant-sibling-tags-extension'
+  s.name        = 'radiant-sibling_tags-extension'
   s.version     = RadiantSiblingTagsExtension::VERSION
   s.authors     = ['Drew Neil']
   s.email       = ['andrew.jr.neil@gmail.com']
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = 'This extension for Radiant provides tags allowing you to refer to the neighbouring siblings of a page'
   s.description = 'This extension for Radiant provides tags allowing you to refer to the neighbouring siblings of a page'
 
-  s.rubyforge_project = 'radiant-sibling-tags-extension'
+  s.rubyforge_project = 'radiant-sibling_tags-extension'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

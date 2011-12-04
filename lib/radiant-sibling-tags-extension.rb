@@ -1,4 +1,4 @@
-require "radiant-sibling-tags-extension/version"
+require 'radiant-sibling_tags-extension/version'
 
 module RadiantSiblingTagsExtension
   # dummy file for default gem requires
